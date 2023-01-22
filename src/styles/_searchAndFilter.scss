@@ -31,7 +31,7 @@
     box-shadow: $box-shadow;
     border-radius: 5px;
     background-color: $lightModeBackground;
-    width: auto;
+    width: 330px;
     max-width: 200px;
     &__input{
         cursor: pointer;
@@ -42,7 +42,6 @@
         border-radius: 5px;
         background: $lightModeBackground;
         text-indent: 5px;
- 
     }
     &-options{
         position: absolute;
