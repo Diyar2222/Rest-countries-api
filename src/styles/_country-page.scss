@@ -1,0 +1,59 @@
+.country-page{
+    margin:50px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;
+    &-name{
+        margin-bottom: 20px;
+    }
+    &-img{
+        width: 60%;
+        height: 60%;
+    }
+    &-info{
+        display: flex;
+        gap:10px;
+        &-1{
+            display: grid;
+            gap: 20px;
+            max-width: 300px;
+        }
+        &-2{
+            display: grid;
+            max-width: 300px;
+        }
+    }
+    &-right{
+        .border-countries{
+            margin-top: 50px;
+            display: flex;
+            gap:20px;
+            &-box{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap:10px;
+            }
+        }
+    }
+    span{
+        font-weight: 600;
+    }
+    .light-font-weight{
+        font-weight: 300;
+    }
+}
+.back-btn{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 50px;
+    gap:5px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: white;
+    border:none;
+    box-shadow: $box-shadow;
+    padding: 5px 20px;
+}

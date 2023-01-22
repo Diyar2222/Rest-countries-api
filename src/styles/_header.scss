@@ -1,0 +1,30 @@
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: $lightModeBackground;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+    box-shadow: $box-shadow;
+    h2{
+        cursor: pointer;
+    }
+    .darkmode {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    & .dark{
+        background-color: $darkBlue;
+        color:$darkModeText;
+    }
+    & .moon-icon{
+        color: aliceblue;
+    }
+    
+}
+// .navbar.dark{
+//     background-color: $darkBlue;
+// }
