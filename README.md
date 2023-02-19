@@ -1,5 +1,5 @@
 ## Overview
-Live site - https://countries-api-dr.netlify.app/country/156
+Live site - https://countries-api-dr.netlify.app
 
 *Users are be able to:*
 
