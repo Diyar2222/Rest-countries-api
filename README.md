@@ -1,5 +1,22 @@
-Deployed site - https://countries-api-dr.netlify.app
-Used technologies:
-- React (React Router, Hooks(useState,useEffect,useContext,useRef))
-- Rest API (async/await)
-- Sass stylesheet
+## Overview
+Live site - https://multi-step-form-dr.netlify.app
+
+*Users are be able to:*
+
+  - See all countries from the API on the homepage
+  - Search for a country using an input field
+  - Filter countries by region
+  - Click on a country to see more detailed information on a separate page
+  - Click through to the border countries on the detail page
+  - Toggle the color scheme between light and dark mode
+  
+ This project was built using:
+ - Semantic HTML5 markup
+ - CSS custom properties
+ - SASS (Mixins & media queries)
+ - Flexbox && CSS Grid
+ - React (useState,useContext)
+ - React-Router
+ 
+
+ 

@@ -23,7 +23,7 @@ function CountryPage() {
     
   return (
     loading ? <Loading/> :
-    <div>
+    <div className='country-page-all'>
         <Link to='/'><button className={`back-btn ${darkMode ? 'dark':''}`}><BsArrowLeft/>Back</button></Link>
         {countryData.map(country=>{
             const {flags,

@@ -1,5 +1,5 @@
 .country-page{
-    margin:50px 70px;
+    margin:20px 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,8 +8,8 @@
         margin-bottom: 20px;
     }
     &-img{
-        width: 60%;
-        height: 60%;
+        width: 50%;
+        height: 50%;
     }
     &-info{
         display: flex;
@@ -26,13 +26,14 @@
     }
     &-right{
         .border-countries{
-            margin-top: 50px;
+            margin-top: 30px;
             display: flex;
             gap:20px;
             &-box{
                 display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-columns: repeat(auto-fit,minmax(100px,100px));
                 gap:10px;
+                width: 100%;
             }
         }
     }

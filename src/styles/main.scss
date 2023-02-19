@@ -8,19 +8,19 @@
 @import 'border-countries';
 @import 'error-page';
 @import 'loading';
-@import 'responsive';
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 a{
     text-decoration: none;
     color:$lightModeText;
 }
 .App{
     min-height: 100vh;
-    max-width: 100vw;
+    overflow-y: auto;
     font-family: $fontFamily;
     background-color: $lightModeBackground;
 }
@@ -35,4 +35,6 @@ a{
 .dark::placeholder{
     color:$darkModeText
 }
+@import 'responsive';
+
 

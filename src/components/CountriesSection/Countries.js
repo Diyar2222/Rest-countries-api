@@ -9,8 +9,6 @@ function Countries() {
   const noCountries = countries.status || countries.message
 
   const addCountries = () =>{
-    if(countriesPerPage>=countries.length){
-    }
     setCountriePerPage(prev=>prev+12)
   }
   return (
